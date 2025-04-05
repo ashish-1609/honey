@@ -2,552 +2,728 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assests/styles/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
     <link rel="shortcut icon" href="./assests/images/logo.png" type="image/x-icon">
-  <title>Welcome to Lorem</title>
+    <title>Welcome to Lorem</title>
 </head>
 
 <body>
-  <header class="position-relative">
+<header class="position-relative">
     <nav id="NavBar" class="navbar navbar-expand-lg p-0 z-3 w-100">
-      <div class="container-fluid px-1 w-100">
-        <!-- First Section: Logo -->
-        <a class="navbar-brand nav-bar" href="index.html"><div class="px-3 text-light fw-bolder">Lorem, ipsum.</div></a>
+        <div class="container-fluid px-1 w-100">
+            <!-- First Section: Logo -->
+            <a class="navbar-brand nav-bar" href="index.html">
+                <div class="px-3 text-light fw-bolder">Lorem, ipsum.</div>
+            </a>
 
-        <!-- Second Section: Navbar Items -->
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-          <ul class="navbar-nav text-capitalize">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="contact.html">
-                Contact Us
-              </a>
+            <!-- Second Section: Navbar Items -->
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="contact.html">
+                            Contact Us
+                        </a>
 
-            </li>
-          </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </nav> 
+    </nav>
     <div class="container-fluid p-0 hero-section">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./assests/images/honey_banner_1.png" class="d-block w-100" alt="...">
-            <div class="overlay">
-              <div class="container m-0 hero-head flex-column">
-                <div class="main-hero-text ">
-                  100% pure honey<br>
-                  <span class="gradient">Lorem Ipsum</span>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./assests/images/honey_banner_1.png" class="d-block w-100" alt="...">
+                    <div class="overlay">
+                        <div class="container m-0 hero-head flex-column">
+                            <div class="main-hero-text ">
+                                Pure Honey, Naturally<br>
+                                <span class="gradient">Straight from the Hive</span>
+                            </div>
+                            <div class="sub-hero-text">
+                                Indulge in honey that’s raw, unfiltered, and bursting with nature’s purest sweetness.
+                            </div>
+                            <div class="contact-btn ">
+                                <a href="shop.html" class="button z-3 fw-bolder">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="sub-hero-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, corrupti?
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assests/images/honey_banner_2.jpg" class="d-block w-100" alt="...">
+                    <div class="overlay">
+                        <div class="container m-0 hero-head flex-column">
+                            <div class="main-hero-text ">
+                                Flavors for Every Taste<br>
+                                <span class="gradient">15+ Unique Varieties</span>
+                            </div>
+                            <div class="sub-hero-text">
+                                From floral to fruity, explore over 15 honey flavors, each offering a distinct taste.
+                            </div>
+                            <div class="contact-btn ">
+                                <a href="contact.html" class="button z-3 fw-bolder">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-btn ">
-                  <a href="" class="button z-3 fw-bolder"  data-bs-toggle="modal" data-bs-target="#formModal">Shop Now</a>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assests/images/Main Banner.jpg" class="d-block w-100" alt="...">
+                    <div class="overlay">
+                        <div class="container m-0 hero-head flex-column">
+                            <div class="main-hero-text ">
+                                Sustainably Sourced Honey<br>
+                                <span class="gradient">Eco-Friendly Practices</span>
+                            </div>
+                            <div class="sub-hero-text">
+                                We support sustainable beekeeping, helping to protect bees and our planet’s ecosystem.
+                            </div>
+                            <div class="contact-btn ">
+                                <a href="about.html" class="button z-3 fw-bolder">Know More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./assests/images/honey_banner_2.jpg" class="d-block w-100" alt="...">
-            <div class="overlay">
-              <div class="container m-0 hero-head flex-column">
-                <div class="main-hero-text ">
-                  Lorem, ipsum dolor.<br>
-                  <span class="gradient">Lorem, ipsum.</span>
-                </div>
-                <div class="sub-hero-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, numquam.
-                </div>
-                <div class="contact-btn ">
-                  <a href="" class="button z-3 fw-bolder"  data-bs-toggle="modal" data-bs-target="#formModal">Contact us</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./assests/images/Main Banner.jpg" class="d-block w-100" alt="...">
-            <div class="overlay">
-              <div class="container m-0 hero-head flex-column">
-                <div class="main-hero-text ">
-                  Lorem, ipsum.<br>
-                  <span class="gradient">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="sub-hero-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, minus.
-                </div>
-                <div class="contact-btn ">
-                  <a href="" class="button z-3 fw-bolder" data-bs-toggle="modal" data-bs-target="#formModal">Know More</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </header>
+</header>
 
-  <section class="top-properties min-vh-100 ">
+<section class="top-properties min-vh-100 ">
     <div class="properties-wrapper">
-      <div class="container-fluid p-0">
-        <div class="container-fluid d-flex align-items-center justify-content-center p-0 my-5">
-          <div class="line-left"></div>
-          <div class="heading display-6 text-center fw-semibold gradient">Shop Our Best Products</div>
-          <div class="line-right"></div>
-        </div>
-        <div class="container-fluid p-0   ">
-          <div class="container gap-5 d-flex align-items-center justify-content-center flex-wrap mb-5">
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/honey-pouring_1_6.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Godrej 101</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Sector 79, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href=""  data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
+        <div class="container-fluid p-0">
+            <div class="container-fluid d-flex align-items-center justify-content-center p-0 my-5">
+                <div class="line-left"></div>
+                <div class="heading display-6 text-center fw-semibold gradient">Shop Our Best Products</div>
+                <div class="line-right"></div>
             </div>
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/70ba163a8d761b95aea1777955f25095.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Emaar Gurgaon Greens</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Dwarka Expressway, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href=""  data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/Organic-Honey.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Emaar Palm heights</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Sector 77, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href=""  data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/istockphoto-1480942686-612x612.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Ashiana Amarah</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Sector 93, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href="" data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/honey_product.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Ganga Anantam</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Sector 85, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href="" data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
-            </div>
-            <div class="card col-md-3 Z">
-              <div class="property-image">
-                <img src="./assests/images/honey_product_1.jpg" alt="">
-              </div>
-              <div class="card-body">
-                <div class="row p-0">
-                  <div class="col-md-9 fw-medium fs-5">Shobha Altus</div>
-                  <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star" style="color: #FFD700;"></i>4.3</div>
-                </div>
-                <div class="fw-medium fs-6">
-                  Sector 106, Gurugram
-                </div>
-                <div class="contact mt-4">
-                  <a class="fw-medium fs-6" href="" data-bs-toggle="modal" data-bs-target="#formModal">Add to Cart</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <div class="container-fluid p-0   ">
+                <div class="container gap-5 d-flex align-items-start justify-content-center flex-wrap mb-5">
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey-pouring_1_6.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Neem/Indian Iilac Honey/Azadirachta Indica</div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Lowers blood pressure, chronic sore throats, blood purifier & maintain oral
+                                health/hygiene, diabetes, skin condition, allergies, indolent ulcers, calms nerves,
+                                reduces irritation
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
 
-  <section class="contact-form">
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/70ba163a8d761b95aea1777955f25095.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Neelgiri/Eucalyptus Honey/Eucalyptus globulus
+                                    Labill
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Improve bone strength, fight colds, flu& respiratory system, increase immunity,
+                                anti-inflammatory, helps lower triglycerides
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/Organic-Honey.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Jamun/Bhartiya (IND)Black Berry Honey/Syzygium
+                                    cumini
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Improve eye light, heal skin aliments, blood purifier, heart health, diabetes control,
+                                increasing hemoglobin level, rich antioxidant, prevent cancer, cures sexual disorders
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/istockphoto-1480942686-612x612.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Himalayan Forest/Wild Honey</div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Healthy heart, energy booster, promotes better sleep & aids in digestion, anti-viral,
+                                anti-bacterial, anti-fungal, anti-septic, best immunity booster, prevents allergy, cures
+                                sexual problems, cures sun burns, skin problems
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey_product.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Tulsi/Basil Honey/ Ocsimum tenuiflorum
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Anti-inflammatory, stress reliever, maintain gut health & improves respiratory health,
+                                skin problem, dry cough, immunity booster, antioxidants
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey_product_1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Ajwain/Thyme Honey/Carum copticum
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Acidity & indigestion prevent, weight loss, good for hair, toothache, wounds, good for
+                                diabetic patients.
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey_product_1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Sheesham/Rosewood honey/Dalbergia nigra
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Weight management, toothache & gum problems, beneficial for women menstrual problems,
+                                improve blood circulation
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey_product_1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Ber/Bhartiya (Ind) Jujube Honey/Ziziphus mauritiana
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Cough & cold prevention, relief in chronic constipation, bone strength, increase vitamin
+                                C level in body, sleep better (Insomnia)
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 Z">
+                        <div class="property-image">
+                            <img src="./assests/images/honey_product_1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="row p-0">
+                                <div class="col-md-9 fw-medium fs-5">Acacia Honey
+                                </div>
+                                <div class="col-md-3 rating p-0 fw-medium fs-5"><i class="fa-solid fa-star"
+                                                                                   style="color: #FFD700;"></i>4.3
+                                </div>
+                            </div>
+                            <div class="fw-medium fs-6">
+                                Fight acne, heart disease, reduce kidney & urinary defects, Atherosclerosis, wound
+                                healing, gut health and relive migraines & headaches
+                            </div>
+                            <div class="container d-flex justify-content-between">
+                                <div class="contact mt-4">
+                                    <a class="fw-medium fs-6" href="index.html">Buy Now</a>
+                                </div>
+                                <div class="contact mt-4 disabled">
+                                    <a class="fw-medium fs-6" href="#">₹900/- KG</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-form">
     <div class="contact-wrapper">
-      <div class="container-fluid p-0">
-        <div class="container-fluid p-0 d-flex align-items-center justify-content-center pt-5">
-          <div class="line-right"></div>
-          <div class="heading display-4 text-center fw-semibold gradient">Contact Us</div>
-          <div class="line-left"></div>
-        </div>
-        <div class="container-fluid contact-container ">
-          <div class="container ">
-            <div class="text">
-              <div class="display-5 main-heading gradient">
-                Get the Best Deal
-              </div>
-              <div class="sub-heading text-light fs-4">
-                Our team would revert back as soon as possible with an expert available to guide you through the process.
-              </div>
+        <div class="container-fluid p-0">
+            <div class="container-fluid p-0 d-flex align-items-center justify-content-center pt-5">
+                <div class="line-right"></div>
+                <div class="heading display-4 text-center fw-semibold gradient">Contact Us</div>
+                <div class="line-left"></div>
             </div>
-          </div>
-          <div class="svg-container Y">
-            <svg id="sw-js-blob-svg" class="shape" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-                  <stop id="stop1" stop-color="#FFD700" offset="0%"></stop>
-                  <stop id="stop2" stop-color="#FFD700" offset="100%"></stop>
-                </linearGradient>
-              </defs>
-              <path id="shape" fill="url(#sw-gradient)"
-                d="M20.8,-37.2C26.5,-32.7,30.3,-26.2,34.7,-19.7C39.1,-13.1,44.1,-6.6,45.2,0.6C46.2,7.8,43.3,15.5,39,22.4C34.8,29.2,29.3,35.2,22.6,39.3C15.8,43.4,7.9,45.7,0.6,44.6C-6.7,43.6,-13.4,39.1,-20.1,35C-26.8,30.9,-33.5,27.1,-38.2,21.3C-42.8,15.5,-45.4,7.7,-44.8,0.3C-44.3,-7.1,-40.5,-14.2,-36.5,-21C-32.4,-27.8,-28,-34.4,-21.9,-38.6C-15.8,-42.8,-7.9,-44.6,-0.2,-44.4C7.6,-44.1,15.1,-41.7,20.8,-37.2Z"
-                width="100px" height="100px" transform="translate(50 50)" stroke-width="0" style="transition: 0.3s;"
-                stroke="url(#sw-gradient)"></path>
-            </svg>
-            <div class="form-container">
-              <form action="">
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Name</label>
+            <div class="container-fluid contact-container ">
+                <div class="container ">
+                    <div class="text">
+                        <div class="display-5 main-heading gradient">
+                            Get the Best Deal
+                        </div>
+                        <div class="sub-heading text-light fs-4">
+                            Our team would revert back as soon as possible with an expert available to guide you through
+                            the process.
+                        </div>
+                    </div>
                 </div>
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email-Id</label>
+                <div class="svg-container Y">
+                    <svg id="sw-js-blob-svg" class="shape" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                                <stop id="stop1" stop-color="#FFD700" offset="0%"></stop>
+                                <stop id="stop2" stop-color="#FFD700" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="shape" fill="url(#sw-gradient)"
+                              d="M20.8,-37.2C26.5,-32.7,30.3,-26.2,34.7,-19.7C39.1,-13.1,44.1,-6.6,45.2,0.6C46.2,7.8,43.3,15.5,39,22.4C34.8,29.2,29.3,35.2,22.6,39.3C15.8,43.4,7.9,45.7,0.6,44.6C-6.7,43.6,-13.4,39.1,-20.1,35C-26.8,30.9,-33.5,27.1,-38.2,21.3C-42.8,15.5,-45.4,7.7,-44.8,0.3C-44.3,-7.1,-40.5,-14.2,-36.5,-21C-32.4,-27.8,-28,-34.4,-21.9,-38.6C-15.8,-42.8,-7.9,-44.6,-0.2,-44.4C7.6,-44.1,15.1,-41.7,20.8,-37.2Z"
+                              width="100px" height="100px" transform="translate(50 50)" stroke-width="0"
+                              style="transition: 0.3s;"
+                              stroke="url(#sw-gradient)"></path>
+                    </svg>
+                    <div class="form-container">
+                        <form action="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                       placeholder="name@example.com">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                       placeholder="name@example.com">
+                                <label for="floatingInput">Email-Id</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                       placeholder="name@example.com">
+                                <label for="floatingInput">Mobile</label>
+                            </div>
+                            <div class="container text-center ">
+                                <button type="submit" class="btn mt-4 btn-outline-dark">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Mobile</label>
-                </div>
-                <div class="container text-center ">
-                  <button type="submit" class="btn mt-4 btn-outline-dark">Submit</button>
-                </div>
-              </form>
+
             </div>
-          </div>
-          
         </div>
-      </div>
     </div>
-  </section>
-  <section class="lux-properties d-flex align-items-center justify-content-center ">
+</section>
+<section class="lux-properties d-flex align-items-center justify-content-center ">
     <div class="container-fluid h-auto p-0 lux-wrapper">
-      <div class="rectangle ">
-        <img src="./assests/images/honey_banner_1.png"  alt="" srcset="">
-      </div>
-      <div class="text">
-        <div class="display-1 main-heading gradient Y ">
-          Best Honey
+        <div class="rectangle ">
+            <img src="./assests/images/honey_banner_1.png" alt="" srcset="">
         </div>
-        <div class="display-3 sub-heading Y">
-          With All India Delivery
+        <div class="text">
+            <div class="display-1 main-heading gradient Y ">
+                Best Honey
+            </div>
+            <div class="display-3 sub-heading Y">
+                With All India Delivery
+            </div>
         </div>
-      </div>
     </div>
 
-  </section>
+</section>
 
-  <section class="h-auto text-light why-choose-section py-2">
+<section class="h-auto text-light why-choose-section py-2">
     <div class="container-fluid d-flex align-items-center justify-content-center p-0 mt-5">
-      <div class="line-left"></div>
-      <div class="heading display-4 text-center fw-semibold gradient">Why Choose Us?</div>
-      <div class="line-right"></div>
+        <div class="line-left"></div>
+        <div class="heading display-4 text-center fw-semibold gradient">Why Choose Us?</div>
+        <div class="line-right"></div>
     </div>
     <div class="container-fluid d-flex align-items-center justify-content-center flex-wrap gap-5 my-5">
-      <div class="card col-md-3">
-        <div class="container w-auto text-center p-3">
-          <div class="icon">
-            <svg width="100px" height="100px" viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-              fill="#00d2ff">
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-              <g id="SVGRepo_iconCarrier">
-                <title>location</title>
-                <desc></desc>
-                <defs> </defs>
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                  <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-106.000000, -413.000000)"
-                    fill="#FFD700">
-                    <path
-                      d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z"
-                      id="location" sketch:type="MSShapeGroup"> </path>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </div>
+        <div class="card col-md-3">
+            <div class="container w-auto text-center p-3">
+                <div class="icon">
+                    <svg width="100px" height="100px" viewBox="-4 0 32 32" version="1.1"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                         fill="#00d2ff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>location</title>
+                            <desc></desc>
+                            <defs></defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                               sketch:type="MSPage">
+                                <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                   transform="translate(-106.000000, -413.000000)"
+                                   fill="#FFD700">
+                                    <path
+                                            d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z"
+                                            id="location" sketch:type="MSShapeGroup"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">All India Delivery</h5>
+                <p class="card-text">Experience pure, organic honey, packed with natural goodness and health benefits,
+                    delivered fresh across India.</p>
+                <button class="bg-main rounded border-0">Learn
+                    More
+                </button>
+            </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">All India Delivery</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas facilis cupiditate harum cum dolorum!</p>
-          <button class="bg-main rounded border-0" >Learn
-            More</button>
+        <div class="card col-md-3">
+            <div class="container w-auto text-center p-3">
+                <div class="icon">
+                    <svg height="100px" width="100px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                         xmlns="http://www.w3.org/2000/svg" stroke="">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M8.96173 18.4687C6.01943 16.2137 2 12.4886 2 8.96653C2 3.08262 7.50016 0.885859 12 5.43111C16.4998 0.885859 22 3.08262 22 8.9665C22 12.4887 17.9806 16.2137 15.0383 18.4687C13.7063 19.4896 13.0403 20 12 20C10.9597 20 10.2937 19.4896 8.96173 18.4687ZM16.5 6.25C16.9142 6.25 17.25 6.58579 17.25 7V8.25002H18.5C18.9142 8.25002 19.25 8.5858 19.25 9.00002C19.25 9.41423 18.9142 9.75002 18.5 9.75002H17.25V11C17.25 11.4142 16.9142 11.75 16.5 11.75C16.0858 11.75 15.75 11.4142 15.75 11V9.75002L14.5 9.75002C14.0858 9.75002 13.75 9.41423 13.75 9.00002C13.75 8.5858 14.0858 8.25002 14.5 8.25002H15.75V7C15.75 6.58579 16.0858 6.25 16.5 6.25Z"
+                                  fill="#FFD700"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Healthy</h5>
+                <p class="card-text">Indulge in healthy, natural honey that boosts immunity and supports well-being,
+                    delivered straight to your doorstep.
+                </p>
+                <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
+                    More
+                </button>
+            </div>
         </div>
-      </div>
-      <div class="card col-md-3">
-        <div class="container w-auto text-center p-3">
-          <div class="icon">
-            <svg height="100px" width="100px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.96173 18.4687C6.01943 16.2137 2 12.4886 2 8.96653C2 3.08262 7.50016 0.885859 12 5.43111C16.4998 0.885859 22 3.08262 22 8.9665C22 12.4887 17.9806 16.2137 15.0383 18.4687C13.7063 19.4896 13.0403 20 12 20C10.9597 20 10.2937 19.4896 8.96173 18.4687ZM16.5 6.25C16.9142 6.25 17.25 6.58579 17.25 7V8.25002H18.5C18.9142 8.25002 19.25 8.5858 19.25 9.00002C19.25 9.41423 18.9142 9.75002 18.5 9.75002H17.25V11C17.25 11.4142 16.9142 11.75 16.5 11.75C16.0858 11.75 15.75 11.4142 15.75 11V9.75002L14.5 9.75002C14.0858 9.75002 13.75 9.41423 13.75 9.00002C13.75 8.5858 14.0858 8.25002 14.5 8.25002H15.75V7C15.75 6.58579 16.0858 6.25 16.5 6.25Z" fill="#FFD700"></path> </g></svg>
-          </div>
+        <div class="card col-md-3">
+            <div class="container w-auto text-center p-3">
+                <div class="icon">
+                    <svg width="100px" height="100px" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"
+                         fill="#00d2ff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g fill="none" fill-rule="evenodd">
+                                <path d="M.002.001h18v18h-18z"></path>
+                                <path
+                                        d="M7.501 7.885a.516.516 0 01-.155.39.533.533 0 01-.39.164H.548a.512.512 0 01-.47-.267.533.533 0 01-.064-.395c.026-.122.039-.246.062-.369C.804 3.98 2.814 1.602 6.11.278c.246-.105.5-.194.758-.265a.477.477 0 01.527.221c.077.094.112.2.107.32v7.33z"
+                                        fill="#FFD700"></path>
+                                <path
+                                        d="M18 9.349V9.5c.008 2.35-.819 4.357-2.481 6.019S11.851 18.009 9.5 18c-2.835-.03-5.123-1.163-6.864-3.4a9.363 9.363 0 01-1.094-1.83 5.65 5.65 0 01-.507-1.33c-.068-.379-.089-.996.45-.996h7.543a.449.449 0 00.335-.136.449.449 0 00.137-.336v-8.5c-.005-.299.142-.456.441-.472.315.01.628.046.938.106 2.27.376 4.09 1.488 5.463 3.336A8.554 8.554 0 0118 9.349z"
+                                        fill="#FFD700"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Purity</h5>
+                <p class="card-text">Enjoy 100% pure honey, sustainably sourced and free from additives, ensuring
+                    quality and freshness in every jar.</p>
+                <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
+                    More
+                </button>
+            </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Healthy</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae adipisci magnam recusandae nam! Perspiciatis, at?
-          </p>
-          <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
-            More</button>
+        <div class="card col-md-3">
+            <div class="container w-auto text-center p-3">
+                <div class="icon">
+                    <svg width="100px" height="100px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                         xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#FFD700">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill=""
+                                  strokewidth="0"></rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <circle cx="10" cy="6" r="4" stroke="#FFD700" stroke-width="1.5"></circle>
+                            <path opacity="0.5"
+                                  d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
+                                  stroke="#FFD700" stroke-width="1.5"></path>
+                            <path
+                                    d="M18.0885 12.5385L18.5435 11.9423L18.0885 12.5385ZM19 8.64354L18.4681 9.17232C18.6089 9.31392 18.8003 9.39354 19 9.39354C19.1997 9.39354 19.3911 9.31392 19.5319 9.17232L19 8.64354ZM19.9115 12.5385L19.4565 11.9423L19.9115 12.5385ZM18.5435 11.9423C18.0571 11.571 17.619 11.274 17.2659 10.8891C16.9387 10.5324 16.75 10.1638 16.75 9.69973H15.25C15.25 10.6481 15.6642 11.362 16.1606 11.9031C16.6311 12.4161 17.2372 12.8322 17.6335 13.1347L18.5435 11.9423ZM16.75 9.69973C16.75 9.28775 16.9898 8.95469 17.2973 8.81862C17.5635 8.7008 17.9874 8.68874 18.4681 9.17232L19.5319 8.11476C18.6627 7.24047 17.5865 7.0503 16.6903 7.44694C15.8352 7.82533 15.25 8.69929 15.25 9.69973H16.75ZM17.6335 13.1347C17.7825 13.2483 17.9756 13.3959 18.1793 13.5111C18.3832 13.6265 18.6656 13.75 19 13.75V12.25C19.0344 12.25 19.0168 12.2615 18.9179 12.2056C18.8187 12.1495 18.7061 12.0663 18.5435 11.9423L17.6335 13.1347ZM20.3665 13.1347C20.7628 12.8322 21.3689 12.4161 21.8394 11.9031C22.3358 11.362 22.75 10.6481 22.75 9.69973H21.25C21.25 10.1638 21.0613 10.5324 20.7341 10.8891C20.381 11.274 19.9429 11.571 19.4565 11.9423L20.3665 13.1347ZM22.75 9.69973C22.75 8.69929 22.1648 7.82533 21.3097 7.44694C20.4135 7.0503 19.3373 7.24047 18.4681 8.11476L19.5319 9.17232C20.0126 8.68874 20.4365 8.7008 20.7027 8.81862C21.0102 8.95469 21.25 9.28775 21.25 9.69973H22.75ZM19.4565 11.9423C19.2939 12.0663 19.1813 12.1495 19.0821 12.2056C18.9832 12.2615 18.9656 12.25 19 12.25V13.75C19.3344 13.75 19.6168 13.6265 19.8207 13.5111C20.0244 13.3959 20.2175 13.2483 20.3665 13.1347L19.4565 11.9423Z"
+                                    fill="#FFD700"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Customer Satisfaction</h5>
+                <p class="card-text">We strive to exceed your expectations and build long-term relationships based on
+                    trust
+                    and mutual respect.</p>
+                <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
+                    More
+                </button>
+            </div>
         </div>
-      </div>
-      <div class="card col-md-3">
-        <div class="container w-auto text-center p-3">
-          <div class="icon">
-            <svg width="100px" height="100px" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="#00d2ff">
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-              <g id="SVGRepo_iconCarrier">
-                <g fill="none" fill-rule="evenodd">
-                  <path d="M.002.001h18v18h-18z"></path>
-                  <path
-                    d="M7.501 7.885a.516.516 0 01-.155.39.533.533 0 01-.39.164H.548a.512.512 0 01-.47-.267.533.533 0 01-.064-.395c.026-.122.039-.246.062-.369C.804 3.98 2.814 1.602 6.11.278c.246-.105.5-.194.758-.265a.477.477 0 01.527.221c.077.094.112.2.107.32v7.33z"
-                    fill="#FFD700"></path>
-                  <path
-                    d="M18 9.349V9.5c.008 2.35-.819 4.357-2.481 6.019S11.851 18.009 9.5 18c-2.835-.03-5.123-1.163-6.864-3.4a9.363 9.363 0 01-1.094-1.83 5.65 5.65 0 01-.507-1.33c-.068-.379-.089-.996.45-.996h7.543a.449.449 0 00.335-.136.449.449 0 00.137-.336v-8.5c-.005-.299.142-.456.441-.472.315.01.628.046.938.106 2.27.376 4.09 1.488 5.463 3.336A8.554 8.554 0 0118 9.349z"
-                    fill="#FFD700"></path>
-                </g>
-              </g>
-            </svg>
-          </div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Market Insights</h5>
-          <p class="card-text">We monitor real estate trends and investment opportunities, providing you with valuable
-            information for informed decisions. </p>
-          <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
-            More</button>
-        </div>
-      </div>
-      <div class="card col-md-3">
-        <div class="container w-auto text-center p-3">
-          <div class="icon">
-            <svg width="100px" height="100px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
-              xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#FFD700">
-              <g id="SVGRepo_bgCarrier" stroke-width="0">
-                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="" strokewidth="0"></rect>
-              </g>
-              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-              <g id="SVGRepo_iconCarrier">
-                <circle cx="10" cy="6" r="4" stroke="#FFD700" stroke-width="1.5"></circle>
-                <path opacity="0.5"
-                  d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
-                  stroke="#FFD700" stroke-width="1.5"></path>
-                <path
-                  d="M18.0885 12.5385L18.5435 11.9423L18.0885 12.5385ZM19 8.64354L18.4681 9.17232C18.6089 9.31392 18.8003 9.39354 19 9.39354C19.1997 9.39354 19.3911 9.31392 19.5319 9.17232L19 8.64354ZM19.9115 12.5385L19.4565 11.9423L19.9115 12.5385ZM18.5435 11.9423C18.0571 11.571 17.619 11.274 17.2659 10.8891C16.9387 10.5324 16.75 10.1638 16.75 9.69973H15.25C15.25 10.6481 15.6642 11.362 16.1606 11.9031C16.6311 12.4161 17.2372 12.8322 17.6335 13.1347L18.5435 11.9423ZM16.75 9.69973C16.75 9.28775 16.9898 8.95469 17.2973 8.81862C17.5635 8.7008 17.9874 8.68874 18.4681 9.17232L19.5319 8.11476C18.6627 7.24047 17.5865 7.0503 16.6903 7.44694C15.8352 7.82533 15.25 8.69929 15.25 9.69973H16.75ZM17.6335 13.1347C17.7825 13.2483 17.9756 13.3959 18.1793 13.5111C18.3832 13.6265 18.6656 13.75 19 13.75V12.25C19.0344 12.25 19.0168 12.2615 18.9179 12.2056C18.8187 12.1495 18.7061 12.0663 18.5435 11.9423L17.6335 13.1347ZM20.3665 13.1347C20.7628 12.8322 21.3689 12.4161 21.8394 11.9031C22.3358 11.362 22.75 10.6481 22.75 9.69973H21.25C21.25 10.1638 21.0613 10.5324 20.7341 10.8891C20.381 11.274 19.9429 11.571 19.4565 11.9423L20.3665 13.1347ZM22.75 9.69973C22.75 8.69929 22.1648 7.82533 21.3097 7.44694C20.4135 7.0503 19.3373 7.24047 18.4681 8.11476L19.5319 9.17232C20.0126 8.68874 20.4365 8.7008 20.7027 8.81862C21.0102 8.95469 21.25 9.28775 21.25 9.69973H22.75ZM19.4565 11.9423C19.2939 12.0663 19.1813 12.1495 19.0821 12.2056C18.9832 12.2615 18.9656 12.25 19 12.25V13.75C19.3344 13.75 19.6168 13.6265 19.8207 13.5111C20.0244 13.3959 20.2175 13.2483 20.3665 13.1347L19.4565 11.9423Z"
-                  fill="#FFD700"></path>
-              </g>
-            </svg>
-          </div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Customer Satisfaction</h5>
-          <p class="card-text">We strive to exceed your expectations and build long-term relationships based on trust
-            and mutual respect.</p>
-          <button class="bg-main rounded border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn
-            More</button>
-        </div>
-      </div>
     </div>
-  </section>
-  <section class="founder">
+</section>
+<section class="founder">
     <div class="contact-wrapper">
-      <div class="container-fluid p-0">
-        <div class="container-fluid p-0 d-flex align-items-center justify-content-center pt-5">
-          <div class="line-right"></div>
-          <div class="heading display-4 text-center fw-semibold gradient">Founder</div>
-          <div class="line-left"></div>
-        </div>
-        <div class="container-fluid contact-container ">
-            
-          <div class="container ">
-            <div class="text-founder">
-              <div class="display-5  main-heading gradient">
-                Lorem, ipsum.
-              </div>
-              <div class="sub-heading fs-4 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum quos deserunt voluptates minus quis laboriosam, nesciunt blanditiis aliquam ullam corporis! Similique numquam, adipisci sit architecto alias, sequi culpa voluptas laudantium enim soluta mollitia illum doloremque, sint eveniet optio modi commodi itaque. In optio debitis corrupti mollitia iusto commodi sequi fuga eius sed aperiam temporibus voluptas, enim illo, eveniet voluptatibus ut magni voluptatum ducimus. Vel blanditiis nihil iusto quo at incidunt qui iure sequi, labore eum recusandae deserunt alias nulla.
-              </div>
+        <div class="container-fluid p-0">
+            <div class="container-fluid p-0 d-flex align-items-center justify-content-center pt-5">
+                <div class="line-right"></div>
+                <div class="heading display-4 text-center fw-semibold gradient">Founder</div>
+                <div class="line-left"></div>
             </div>
-          </div>
-          <div class="founder-container Y">
-            <svg id="sw-js-blob-svg" class="image-shape" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-                  <stop id="stop1" stop-color="#ffffff00" offset="0%"></stop>
-                  <stop id="stop2" stop-color="#ffffff00" offset="100%"></stop>
-                </linearGradient>
-              </defs>
-              <path id="shape" fill="url(#sw-gradient)"
-                d="M20.8,-37.2C26.5,-32.7,30.3,-26.2,34.7,-19.7C39.1,-13.1,44.1,-6.6,45.2,0.6C46.2,7.8,43.3,15.5,39,22.4C34.8,29.2,29.3,35.2,22.6,39.3C15.8,43.4,7.9,45.7,0.6,44.6C-6.7,43.6,-13.4,39.1,-20.1,35C-26.8,30.9,-33.5,27.1,-38.2,21.3C-42.8,15.5,-45.4,7.7,-44.8,0.3C-44.3,-7.1,-40.5,-14.2,-36.5,-21C-32.4,-27.8,-28,-34.4,-21.9,-38.6C-15.8,-42.8,-7.9,-44.6,-0.2,-44.4C7.6,-44.1,15.1,-41.7,20.8,-37.2Z"
-                width="100px" height="100px" transform="translate(50 50)" stroke-width="0" style="transition: 0.3s;"
-                stroke="url(#sw-gradient)"></path>
-            </svg>
-            <div class="founder-image">
-              <img src="./assests/images/Organic-Honey.jpg" alt="">
+            <div class="container-fluid contact-container ">
+
+                <div class="container ">
+                    <div class="text-founder">
+                        <div class="display-5  main-heading gradient">
+                            Lorem, ipsum.
+                        </div>
+                        <div class="sub-heading fs-4 text-light">
+                            We are driven by a passion to deliver the purest, most natural honey to our customers. Our
+                            journey began with a simple goal – to provide high-quality, organic honey that promotes
+                            health and well-being. With a focus on sustainability and purity, every jar is carefully
+                            sourced and free from additives. We are dedicated to offering products that nourish both the
+                            body and the environment. Thank you for choosing us as your trusted honey provider – we are
+                            committed to delivering freshness and quality, straight from nature to your doorstep.
+                        </div>
+                    </div>
+                </div>
+                <div class="founder-container Y">
+                    <svg id="sw-js-blob-svg" class="image-shape" viewBox="0 0 100 100"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                                <stop id="stop1" stop-color="#ffffff00" offset="0%"></stop>
+                                <stop id="stop2" stop-color="#ffffff00" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="shape" fill="url(#sw-gradient)"
+                              d="M20.8,-37.2C26.5,-32.7,30.3,-26.2,34.7,-19.7C39.1,-13.1,44.1,-6.6,45.2,0.6C46.2,7.8,43.3,15.5,39,22.4C34.8,29.2,29.3,35.2,22.6,39.3C15.8,43.4,7.9,45.7,0.6,44.6C-6.7,43.6,-13.4,39.1,-20.1,35C-26.8,30.9,-33.5,27.1,-38.2,21.3C-42.8,15.5,-45.4,7.7,-44.8,0.3C-44.3,-7.1,-40.5,-14.2,-36.5,-21C-32.4,-27.8,-28,-34.4,-21.9,-38.6C-15.8,-42.8,-7.9,-44.6,-0.2,-44.4C7.6,-44.1,15.1,-41.7,20.8,-37.2Z"
+                              width="100px" height="100px" transform="translate(50 50)" stroke-width="0"
+                              style="transition: 0.3s;"
+                              stroke="url(#sw-gradient)"></path>
+                    </svg>
+                    <div class="founder-image">
+                        <img src="./assests/images/Organic-Honey.jpg" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-          
         </div>
-      </div>
     </div>
-  </section>
-  <section class="map d-flex align-items-center justify-content-center ">
+</section>
+<section class="map d-flex align-items-center justify-content-center ">
     <div class="container-fluid h-auto p-0 map-wrapper">
-      <div class="rectangleMap ">
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6651748177046!2d76.99335017473169!3d28.489628490557184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17d5380cb337%3A0x7896fda203ea3deb!2sNorthern%20Peripheral%20Rd!5e0!3m2!1sen!2sin!4v1723910366768!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="rectangleMap ">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6651748177046!2d76.99335017473169!3d28.489628490557184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17d5380cb337%3A0x7896fda203ea3deb!2sNorthern%20Peripheral%20Rd!5e0!3m2!1sen!2sin!4v1723910366768!5m2!1sen!2sin"
+                        width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
-        
-      </div>
-      <div class="text">
-        <div class="display-1 main-heading gradient Y ">
-          Locate Us
+        <div class="text">
+            <div class="display-1 main-heading gradient Y ">
+                Locate Us
+            </div>
+            <div class="display-3 text-light sub-heading Y">
+                Lorem ipsum dolor sit.
+            </div>
         </div>
-        <div class="display-3 text-light sub-heading Y">
-          Lorem ipsum dolor sit.
-        </div>
-      </div>
     </div>
 
-  </section>
-  <footer class="footer d-flex align-items-center justify-content-between flex-column ">
+</section>
+<footer class="footer d-flex align-items-center justify-content-between flex-column ">
     <div class="">
-      <img src="./assests/images/honey_banner_1.png" alt="" class="footer-logo ">
+        <img src="./assests/images/honey_banner_1.png" alt="" class="footer-logo ">
     </div>
     <div class="footer-container">
-      <div class=" d-flex align-items-center justify-content-center flex-wrap">
-        <div class="col-md-3 footer-item">
-          <div class="footer-item-heading fw-bold text-uppercase">
-            Lorem, ipsum.
-          </div>
-          <div class="fs-6 mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta totam laudantium quas tempore qui.
-          </div>
-        </div>
-        <div class="col-md-3 footer-item">
-          <div class="footer-item-heading fw-bold text-uppercase">
-            Important
-            Links
-          </div>
-          <div class="container">
-            <ul class="list-unstyled footer-link mt-4">
-              <li class="mb-1"><a href="index.html" class="text-decoration-none fw-semibold">Home</a></li>
-              <li class="mb-1"><a href="about.html" class=" text-decoration-none fw-semibold">About Us</a></li>
-              <li class="mb-1"><a href="shop.html" class=" text-decoration-none fw-semibold">Shop</a></li>
-              <li class=""><a href="contact.html" class=" text-decoration-none fw-semibold">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 footer-item">
-          <div class="footer-item-heading fw-bold text-uppercase">
-            Social Media
-          </div>
-          <div class="container p-0 text-light">
-            <ul class="list-inline my-4">
-              <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-primary mb-2"><i
-                    class="fa-brands fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="" class="text-danger btn-sm btn btn-light mb-2"><i
-                    class="fa-brands fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-danger mb-2"><i
-                    class="fa-brands fa-youtube"></i></a></li>
-              <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-success mb-2"><i
-                    class="fa-brands fa-whatsapp"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 footer-item">
-          <div class="footer-item-heading fw-bold text-uppercase">
-            Contact Us
+        <div class=" d-flex align-items-center justify-content-center flex-wrap">
+            <div class="col-md-3 footer-item">
+                <div class="footer-item-heading fw-bold text-uppercase">
+                    Lorem, ipsum.
+                </div>
+                <div class="fs-6 mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint soluta totam laudantium quas tempore
+                    qui.
+                </div>
+            </div>
+            <div class="col-md-3 footer-item">
+                <div class="footer-item-heading fw-bold text-uppercase">
+                    Important
+                    Links
+                </div>
+                <div class="container">
+                    <ul class="list-unstyled footer-link mt-4">
+                        <li class="mb-1"><a href="index.html" class="text-decoration-none fw-semibold">Home</a></li>
+                        <li class="mb-1"><a href="about.html" class=" text-decoration-none fw-semibold">About Us</a>
+                        </li>
+                        <li class="mb-1"><a href="shop.html" class=" text-decoration-none fw-semibold">Shop</a></li>
+                        <li class=""><a href="contact.html" class=" text-decoration-none fw-semibold">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 footer-item">
+                <div class="footer-item-heading fw-bold text-uppercase">
+                    Social Media
+                </div>
+                <div class="container p-0 text-light">
+                    <ul class="list-inline my-4">
+                        <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-primary mb-2"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="" class="text-danger btn-sm btn btn-light mb-2"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-danger mb-2"><i
+                                class="fa-brands fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="" class="text-dark btn-sm btn btn-success mb-2"><i
+                                class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 footer-item">
+                <div class="footer-item-heading fw-bold text-uppercase">
+                    Contact Us
 
-          </div>
-          <div class="contact">
-            <address class="mt-4 m-0  mb-1"><i class="bi bi-pin-map fw-semibold"></i> New South Block , Phase
-              8B , 160055</address>
-            <a href="tel:+" class="mb-1 text-decoration-none d-block fw-semibold"><i
-                class="bi bi-telephone"></i> 909090XXXX</a>
-            <a href="mailto:" class="mb-1 text-decoration-none d-block fw-semibold"><i
-                class="bi bi-envelope"></i> xyzdemomail@gmail.com</a>
-            <a href="" class="text-decoration-none fw-semibold"><i class="bi bi-skype"></i> xyzdemomail</a>
-          </div>
+                </div>
+                <div class="contact">
+                    <address class="mt-4 m-0  mb-1"><i class="bi bi-pin-map fw-semibold"></i> New South Block , Phase
+                        8B , 160055
+                    </address>
+                    <a href="tel:+" class="mb-1 text-decoration-none d-block fw-semibold"><i
+                            class="bi bi-telephone"></i> 909090XXXX</a>
+                    <a href="mailto:" class="mb-1 text-decoration-none d-block fw-semibold"><i
+                            class="bi bi-envelope"></i> xyzdemomail@gmail.com</a>
+                    <a href="" class="text-decoration-none fw-semibold"><i class="bi bi-skype"></i> xyzdemomail</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="text-center w-100 bg-dark text-light mt-4 py-3">
-      <p class="mb-0 fw-bold">2025   @Lorem, All Rights Reserved</p>
+        <p class="mb-0 fw-bold">2025 @Lorem, All Rights Reserved</p>
     </div>
 
-  </footer>  
+</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-    <script src="./assests/script/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="./assests/script/app.js"></script>
 </body>
 
 </html>

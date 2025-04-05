@@ -219,6 +219,9 @@ nav{
 .properties-wrapper .card{
   max-width: 340px;
 }
+.properties-wrapper .card .disabled{
+  pointer-events: none!important;
+}
 .properties-wrapper .property-image {
   overflow: hidden;
   /* min-width:300px; */
