@@ -103,6 +103,11 @@ nav{
   font-size: 32px !important;
 }
 
+.nav-bar .logo img{
+  height: 100px;
+}
+
+
 .sticky{
     top: 0%;
     height: 110px !important;
@@ -681,6 +686,13 @@ Contact Page
 }
 /* responsive */
 @media only screen and (max-width: 768px) {
+  .nav-bar .logo {
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .min-dark{
+    background: #000000!important;
+  }
   nav {
     height: auto !important;
   }
@@ -691,7 +703,7 @@ Contact Page
     height: 70vh;
   }
   .overlay {
-    margin-top: 60px;
+    margin-top: 00px;
   }
   .carousel-item img{
     height: 70vh;
@@ -760,6 +772,7 @@ Contact Page
   }
   .founder-container{
     background: #D98E04;
+    position: fixed;
     padding: 15px 0;
     border-radius: 10px;
     margin: 10px 0 0 0 !important;
